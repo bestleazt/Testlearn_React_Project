@@ -1,0 +1,62 @@
+import React from 'react';
+function Feature(){
+    return(
+        <React.Fragment>
+                {/*================Feature Area =================*/}
+      <section className="feature_area p_120">
+        <div className="container">
+          <div className="main_title">
+            <h2>offerings to my clients</h2>
+            <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+          </div>
+          <div className="feature_inner row">
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-city" />
+                <h4>Architecture</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-skyline" />
+                <h4>Interior Design</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-sketch" />
+                <h4>Concept Design</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-city" />
+                <h4>Architecture</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-skyline" />
+                <h4>Interior Design</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="feature_item">
+                <i className="flaticon-sketch" />
+                <h4>Concept Design</h4>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*================End Feature Area =================*/}
+        </React.Fragment>
+    );
+}
+export default Feature;
